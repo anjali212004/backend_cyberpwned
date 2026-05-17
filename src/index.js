@@ -31,6 +31,7 @@ server.use((err, req, res, next) => {
 })
 
 // Listen server
-server.listen(PORT, () => {
-  console.log(`Server is running at: http://localhost:${PORT}`)
-})
+// server.listen(PORT, () => {
+//   console.log(`Server is running at: http://localhost:${PORT}`)
+// })
+module.exports = server
